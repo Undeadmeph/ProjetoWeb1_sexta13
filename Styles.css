@@ -14,7 +14,9 @@ header {
     justify-content: space-around;
     align-items: center;
 }
-
+a{
+    background-color: transparent;
+}
 nav {
     width: 60%;
 }
@@ -265,10 +267,16 @@ body {
     border: 1px solid #ccc;
     padding: 10px;
     margin: 10px;
+    color: aliceblue;
+}
+
+.whitetext {
+    color: aliceblue;
+
 }
 
 .user-icon {
-    color: #0074D9; /* Cor do ícone de usuário */
-    font-size: 24px; /* Tamanho do ícone de usuário */
-    margin-right: 10px; /* Espaço à direita do ícone de usuário */
+    color: #0074D9; 
+    font-size: 24px; 
+    margin-right: 10px; 
 }
